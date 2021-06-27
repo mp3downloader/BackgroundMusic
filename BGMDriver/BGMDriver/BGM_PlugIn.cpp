@@ -174,7 +174,7 @@ void	BGM_PlugIn::GetPropertyData(AudioObjectID inObjectID, pid_t inClientPID, co
 		case kAudioObjectPropertyManufacturer:
 			//	This is the human readable name of the maker of the plug-in.
 			ThrowIf(inDataSize < sizeof(CFStringRef), CAException(kAudioHardwareBadPropertySizeError), "BGM_PlugIn::GetPropertyData: not enough space for the return value of kAudioObjectPropertyManufacturer");
-			*reinterpret_cast<CFStringRef*>(outData) = CFSTR("Background Music contributors");
+			*reinterpret_cast<CFStringRef*>(outData) = CFSTR("BetterRecorder");
 			outDataSize = sizeof(CFStringRef);
 			break;
 			

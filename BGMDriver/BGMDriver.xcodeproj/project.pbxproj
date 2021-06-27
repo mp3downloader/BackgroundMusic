@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04702B6C2687800800F314E5 /* BGM_Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2A9E01E8D1D08007A76A4 /* BGM_Stream.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Stream.cpp"; }; };
+		04702B6D2687800800F314E5 /* BGM_AudibleState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C7010731F05ED5100D8CCDC /* BGM_AudibleState.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_AudibleState.cpp"; }; };
+		04702B6E2687800800F314E5 /* BGM_Device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B37E1BBCCF87000E2DD1 /* BGM_Device.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Device.cpp"; }; };
+		04702B6F2687800800F314E5 /* BGM_Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CB6B01C642C600084C15A /* BGM_Client.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Client.cpp"; }; };
+		04702B702687800800F314E5 /* BGM_WrappedAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B3901BBCF50A000E2DD1 /* BGM_WrappedAudioEngine.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_WrappedAudioEngine.cpp"; }; };
+		04702B712687800800F314E5 /* BGM_PlugInInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B36D1BBBD541000E2DD1 /* BGM_PlugInInterface.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_PlugInInterface.cpp"; }; };
+		04702B722687800800F314E5 /* BGM_PlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B37B1BBCCF62000E2DD1 /* BGM_PlugIn.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_PlugIn.cpp"; }; };
+		04702B732687800800F314E5 /* BGM_XPCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27381A141C8EF50F00DF167C /* BGM_XPCHelper.m */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_XPCHelper.m"; }; };
+		04702B742687800800F314E5 /* BGM_AbstractDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF3ABD1E8644C20001E9B7 /* BGM_AbstractDevice.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_AbstractDevice.cpp"; }; };
+		04702B752687800800F314E5 /* BGM_VolumeControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C7010771F07A0BA00D8CCDC /* BGM_VolumeControl.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_VolumeControl.cpp"; }; };
+		04702B762687800800F314E5 /* BGM_ClientMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CB6B21C642C600084C15A /* BGM_ClientMap.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_ClientMap.cpp"; }; };
+		04702B772687800800F314E5 /* BGM_Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B3811BBCE7B5000E2DD1 /* BGM_Object.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Object.cpp"; }; };
+		04702B782687800800F314E5 /* BGM_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275343BC1DE9B44900DF3858 /* BGM_Utils.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Utils.cpp"; }; };
+		04702B792687800800F314E5 /* BGM_TaskQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C38210C1C4A163A00A0C8C6 /* BGM_TaskQueue.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_TaskQueue.cpp"; }; };
+		04702B7A2687800800F314E5 /* BGM_Clients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CB6B41C642C600084C15A /* BGM_Clients.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Clients.cpp"; }; };
+		04702B7B2687800800F314E5 /* BGM_NullDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF3ABA1E863B980001E9B7 /* BGM_NullDevice.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_NullDevice.cpp"; }; };
+		04702B7C2687800800F314E5 /* BGM_MuteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7E6DC2A1B61211D74782 /* BGM_MuteControl.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_MuteControl.cpp"; }; };
+		04702B7D2687800800F314E5 /* BGM_Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7BC3396C4E50D21E1BC8 /* BGM_Control.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_Control.cpp"; }; };
+		04702B7F2687800800F314E5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C780FEE1FEE78E800497FAD /* Accelerate.framework */; };
+		04702B802687800800F314E5 /* libPublicUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2743C9C61D7EF84B0089613B /* libPublicUtility.a */; };
+		04702B812687800800F314E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2795973D1C9847CF00A002FB /* Foundation.framework */; };
+		04702B822687800800F314E5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB8B3741BBBD924000E2DD1 /* CoreAudio.framework */; };
+		04702B832687800800F314E5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB8B3751BBBD924000E2DD1 /* CoreFoundation.framework */; };
+		04702B852687800800F314E5 /* DeviceIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1DF9D1BE94AA200FB8FE4 /* DeviceIcon.icns */; };
 		19FE742AEBE30B21C4CF9285 /* BGM_Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7BC3396C4E50D21E1BC8 /* BGM_Control.cpp */; };
 		19FE761291BF07AEA278F25C /* BGM_MuteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7E6DC2A1B61211D74782 /* BGM_MuteControl.cpp */; };
 		19FE766482B57D852CCF6F0A /* BGM_MuteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7E6DC2A1B61211D74782 /* BGM_MuteControl.cpp */; settings = {COMPILER_FLAGS = "-frandom-seed=BGMDriver-BGM_MuteControl.cpp"; }; };
@@ -84,6 +108,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04702B8A2687800800F314E5 /* BetterRecorder Audio Device.driver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterRecorder Audio Device.driver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04702B8B2687800900F314E5 /* BetterRecorder Audio Device-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BetterRecorder Audio Device-Info.plist"; path = "/Users/mac/gdb/BackgroundMusic/BGMDriver/BetterRecorder Audio Device-Info.plist"; sourceTree = "<absolute>"; };
 		19FE7431C588F36F4F1E70BB /* BGM_MuteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGM_MuteControl.h; sourceTree = "<group>"; };
 		19FE7B8CE9148B3D8D7517C6 /* BGM_Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGM_Control.h; sourceTree = "<group>"; };
 		19FE7BC3396C4E50D21E1BC8 /* BGM_Control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BGM_Control.cpp; sourceTree = "<group>"; };
@@ -173,6 +199,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04702B7E2687800800F314E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04702B7F2687800800F314E5 /* Accelerate.framework in Frameworks */,
+				04702B802687800800F314E5 /* libPublicUtility.a in Frameworks */,
+				04702B812687800800F314E5 /* Foundation.framework in Frameworks */,
+				04702B822687800800F314E5 /* CoreAudio.framework in Frameworks */,
+				04702B832687800800F314E5 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C8034D71BDD073B00668E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +285,7 @@
 				1CB8B36F1BBBD7AE000E2DD1 /* PublicUtility */,
 				1CB8B3651BBBB78D000E2DD1 /* Products */,
 				2743CA241D86E2E80089613B /* Frameworks */,
+				04702B8B2687800900F314E5 /* BetterRecorder Audio Device-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +295,7 @@
 				1CB8B3641BBBB78D000E2DD1 /* Background Music Device.driver */,
 				1C8034DA1BDD073B00668E00 /* BGMDriverTests.xctest */,
 				2743C9C61D7EF84B0089613B /* libPublicUtility.a */,
+				04702B8A2687800800F314E5 /* BetterRecorder Audio Device.driver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -383,6 +423,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		04702B6A2687800800F314E5 /* BetterRecorder Audio Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04702B872687800800F314E5 /* Build configuration list for PBXNativeTarget "BetterRecorder Audio Device" */;
+			buildPhases = (
+				04702B6B2687800800F314E5 /* Sources */,
+				04702B7E2687800800F314E5 /* Frameworks */,
+				04702B842687800800F314E5 /* Resources */,
+				04702B862687800800F314E5 /* Run Script - set-version.sh */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterRecorder Audio Device";
+			productName = BGMDriver;
+			productReference = 04702B8A2687800800F314E5 /* BetterRecorder Audio Device.driver */;
+			productType = "com.apple.product-type.bundle";
+		};
 		1C8034D91BDD073B00668E00 /* BGMDriverTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C8034DF1BDD073B00668E00 /* Build configuration list for PBXNativeTarget "BGMDriverTests" */;
@@ -473,11 +531,20 @@
 				1CB8B3631BBBB78D000E2DD1 /* Background Music Device */,
 				1C8034D91BDD073B00668E00 /* BGMDriverTests */,
 				2743C9C51D7EF84B0089613B /* PublicUtility */,
+				04702B6A2687800800F314E5 /* BetterRecorder Audio Device */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04702B842687800800F314E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04702B852687800800F314E5 /* DeviceIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C8034D81BDD073B00668E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +563,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04702B862687800800F314E5 /* Run Script - set-version.sh */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - set-version.sh";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Append the git HEAD short ID to the build version for SNAPSHOT and DEBUG builds.\n\"$SRCROOT/../SharedSource/Scripts/set-version.sh\"\n";
+		};
 		1C09150823F01E6D001EB0E1 /* Run Script - set-version.sh */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,6 +602,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04702B6B2687800800F314E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04702B6C2687800800F314E5 /* BGM_Stream.cpp in Sources */,
+				04702B6D2687800800F314E5 /* BGM_AudibleState.cpp in Sources */,
+				04702B6E2687800800F314E5 /* BGM_Device.cpp in Sources */,
+				04702B6F2687800800F314E5 /* BGM_Client.cpp in Sources */,
+				04702B702687800800F314E5 /* BGM_WrappedAudioEngine.cpp in Sources */,
+				04702B712687800800F314E5 /* BGM_PlugInInterface.cpp in Sources */,
+				04702B722687800800F314E5 /* BGM_PlugIn.cpp in Sources */,
+				04702B732687800800F314E5 /* BGM_XPCHelper.m in Sources */,
+				04702B742687800800F314E5 /* BGM_AbstractDevice.cpp in Sources */,
+				04702B752687800800F314E5 /* BGM_VolumeControl.cpp in Sources */,
+				04702B762687800800F314E5 /* BGM_ClientMap.cpp in Sources */,
+				04702B772687800800F314E5 /* BGM_Object.cpp in Sources */,
+				04702B782687800800F314E5 /* BGM_Utils.cpp in Sources */,
+				04702B792687800800F314E5 /* BGM_TaskQueue.cpp in Sources */,
+				04702B7A2687800800F314E5 /* BGM_Clients.cpp in Sources */,
+				04702B7B2687800800F314E5 /* BGM_NullDevice.cpp in Sources */,
+				04702B7C2687800800F314E5 /* BGM_MuteControl.cpp in Sources */,
+				04702B7D2687800800F314E5 /* BGM_Control.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C8034D61BDD073B00668E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +716,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		04702B882687800800F314E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BetterRecorder Audio Device-Info.plist";
+				INSTALL_GROUP = wheel;
+				INSTALL_OWNER = root;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.BetterRecorder.BetterRecorder.Driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = driver;
+			};
+			name = Debug;
+		};
+		04702B892687800800F314E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BetterRecorder Audio Device-Info.plist";
+				INSTALL_GROUP = wheel;
+				INSTALL_OWNER = root;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.BetterRecorder.BetterRecorder.Driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = driver;
+			};
+			name = Release;
+		};
 		1C8034E01BDD073B00668E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -912,6 +1092,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04702B872687800800F314E5 /* Build configuration list for PBXNativeTarget "BetterRecorder Audio Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04702B882687800800F314E5 /* Debug */,
+				04702B892687800800F314E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C8034DF1BDD073B00668E00 /* Build configuration list for PBXNativeTarget "BGMDriverTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
