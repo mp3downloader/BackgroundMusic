@@ -40,16 +40,16 @@ static const char* const kBGMIssueTrackerURL = "https://github.com/kyleneideck/B
 #pragma mark IDs
 
 // TODO: Change these and the other defines to const strings?
-#define kBGMDriverBundleID           "com.bearisdriving.BGM.Driver"
-#define kBGMAppBundleID              "com.bearisdriving.BGM.App"
-#define kBGMXPCHelperBundleID        "com.bearisdriving.BGM.XPCHelper"
+#define kBGMDriverBundleID           "io.BetterRecorder.BetterRecorder.Driver"
+#define kBGMAppBundleID              "io.BetterRecorder.BetterRecorder.App"
+#define kBGMXPCHelperBundleID        "io.BetterRecorder.BetterRecorder.XPCHelper"
 
-#define kBGMDeviceUID                "BGMDevice"
-#define kBGMDeviceModelUID           "BGMDeviceModelUID"
-#define kBGMDeviceUID_UISounds       "BGMDevice_UISounds"
-#define kBGMDeviceModelUID_UISounds  "BGMDeviceModelUID_UISounds"
-#define kBGMNullDeviceUID            "BGMNullDevice"
-#define kBGMNullDeviceModelUID       "BGMNullDeviceModelUID"
+#define kBGMDeviceUID                "BetterRecorderAudioDevice"
+#define kBGMDeviceModelUID           "BetterRecorderAudioDeviceModelUID"
+#define kBGMDeviceUID_UISounds       "BetterRecorderAudioDevice_UISounds"
+#define kBGMDeviceModelUID_UISounds  "BetterRecorderAudioDeviceModelUID_UISounds"
+#define kBGMNullDeviceUID            "BetterRecorderNullDevice"
+#define kBGMNullDeviceModelUID       "BetterRecorderNullDeviceModelUID"
 
 // The object IDs for the audio objects this driver implements.
 //

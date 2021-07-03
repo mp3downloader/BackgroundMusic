@@ -19,21 +19,21 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.4.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>CFPlugInFactories</key>
 	<dict>
-		<key>c656d8f9-2c97-4bd0-8162-2c49b85bb0f6</key>
+		<key>C656D8F9-2C97-4BD0-8162-2C49B85BB0F6</key>
 		<string>BGM_Create</string>
 	</dict>
 	<key>CFPlugInTypes</key>
 	<dict>
 		<key>443ABAB8-E7B3-491A-B985-BEB9187030DB</key>
 		<array>
-			<string>c656d8f9-2c97-4bd0-8162-2c49b85bb0f6</string>
+			<string>C656D8F9-2C97-4BD0-8162-2C49B85BB0F6</string>
 		</array>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
